@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Complete Guide</title>
+  </head>
+  <body style="height: 5000px">
+    <h1>Hello World!</h1>
+    <h2>Hello World!</h2>
+    <h3>Hello World!</h3>
+    <h4>Hello World!</h4>
+    <h5>Hello World!</h5>
+    <h6>Hello World!</h6>
+
+    <p>
+      <strong>Lorem ipsum</strong> <em>dolor sit</em> amet <u>consectetur</u>
+      <mark>adipisicing elit</mark>. Suscipit, maiores.
+    </p>
+    <p><s>$999</s> <ins>$699</ins></p>
+
+    <p>H<sub>2</sub>O</p>
+
+    <p>a<sup>2</sup> + b<sup>2</sup></p>
+
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNsFa9vF4kYUBoI4oluoa9TyBVQjbq1MK38A&s"
+      alt="Dummy"
+      height="100"
+      width="100"
+    />
+
+    <a href="https://google.com" target="_blank">Go to google</a>
+
+    <button>Read More</button>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th rowspan="2"></th>
+          <th colspan="2">Average</th>
+          <th rowspan="2" scope="col">Red eyes</th>
+        </tr>
+        <tr>
+          <th scope="col">height</th>
+          <th scope="col">weight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Males</th>
+          <td>1.9</td>
+          <td>22</td>
+          <td>22%</td>
+        </tr>
+        <tr>
+          <th scope="row">Females</th>
+          <td>1.9</td>
+          <td>22</td>
+          <td>22%</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+
+    <hr />
+
+    <form>
+      <div>
+        <label for="first_name">First Name</label> <br />
+        <input
+          type="text"
+          id="first_name"
+          maxlength="6"
+          minlength="2"
+          required
+        />
+      </div>
+      <div>
+        <label for="last_name">Last Name</label> <br />
+        <input type="text" id="last_name" />
+      </div>
+      <div>
+        <label for="email">Email</label> <br />
+        <input type="email" id="email" />
+      </div>
+      <div>
+        <label for="age">Age</label> <br />
+        <input type="number" id="age" min="18" max="28" />
+      </div>
+      <div>
+        <label for="dob">Date of Birth</label> <br />
+        <input type="date" id="dob" min="2000-01-01" max="2026-12-31" />
+      </div>
+      <div>
+        <label for="file">Upload CV</label> <br />
+        <input type="file" id="file" />
+      </div>
+      <div>
+        <label for="color">Select Colour</label> <br />
+        <input type="color" />
+      </div>
+      <div>
+        <label for="password">Password</label> <br />
+        <input type="password" id="password" />
+      </div>
+
+      <div>
+        <label>Gender</label> <br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <div>
+        <label>Packages</label> <br />
+        <input
+          type="checkbox"
+          name="packages"
+          id="package01"
+          value="package01"
+        />
+        <label for="package01">Package01</label>
+        <br />
+        <input
+          type="checkbox"
+          name="packages"
+          id="package02"
+          disabled
+          value="package02"
+        />
+        <label for="package02">Package 02</label>
+        <br />
+        <input
+          type="checkbox"
+          name="packages"
+          id="package03"
+          checked
+          value="package03"
+        />
+        <label for="package03">Package 03</label>
+      </div>
+
+      <div>
+        <label for="type">Option</label> <br />
+        <select name="type" id="type">
+          <option value="option01">Option 01</option>
+          <option selected value="option02">Option 02</option>
+          <option disabled value="option03">Option 03</option>
+          <option value="option04">Option 04</option>
+        </select>
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
